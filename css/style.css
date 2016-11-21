@@ -1,0 +1,167 @@
+a.spoiler:after {
+    content: " [-]"
+}
+
+a.spoiler.collapsed:after {
+    content: " [+]"
+}
+
+/*.thumb {
+    margin: 0px;
+    padding: 0px;
+}*/
+    a:hover{
+cursor:pointer;
+    }
+
+figure {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+.hover figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .8s ease-in-out;
+	transition: .8s ease-in-out;
+}
+.hover figure:hover img {
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+a.hover{
+    color: aliceblue;
+}
+a.hover: hover span{
+    color: aqua;
+}
+.panel-black { 
+    -webkit-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+    -webkit-transition-property: all;
+    transition-property: all;
+     -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-delay: initial;
+    transition-delay: initial;
+background: #000;
+color: #FF0000; 
+font-family: "century gothic";
+/*ont-weight: bolder;*/
+text-align:  center;
+   
+} 
+/*.panel-black:hover, .panel-black:focus {
+font-family: "century gothic";
+background: #C0C0C0;
+color: #000;
+    
+} 
+.btn-panel:active {
+        
+font-family: "century gothic";
+background: #FFFFFF;
+color: #000000;
+}*/
+
+.example {
+ /*display:inline-block;   */
+    position:relative;
+ 
+}
+.example span {
+    display:inline-block;
+    position:absolute;
+    top:30px;   
+    left:0px;
+     
+    /* Оформление текста */
+    color:#FFF;
+    font-family:"Copperplate Gothic Light";
+    font-size:60px; 
+     
+    /* Фон 
+    padding:14px 150px;*/
+    padding:10px 50px;
+}
+.example1 {
+ /*display:inline-block;   */
+    position:relative;
+ 
+}
+.example1 span {
+    display:inline-block;
+    position:absolute;
+    top:30px;   
+    left:0px;
+     
+    /* Оформление текста */
+    color:#000;
+    font-family:"Copperplate Gothic Light";
+    font-size:60px; 
+     
+    /* Фон 
+    padding:14px 150px;*/
+    padding:10px 50px;
+}
+
+
+
+.navbar-main {
+    background-color:  #191970;
+    border-color:  #191970;
+}
+
+.zzz{
+    text-align:  center;
+  	font: bold 30px "century gothic";
+}
+
+.z{
+    text-align: center;
+}
+
+.zz{
+    color: #FFFFFF
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+hr.style-line {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
