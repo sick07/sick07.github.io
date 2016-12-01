@@ -125,6 +125,12 @@ color: #000000;
 .zzz{
     text-align:  center;
   	font: bold 30px "century gothic";
+    color: #000;
+}
+
+.zzzz{
+    text-align:  center;
+  	font: bold 30px "century gothic";
 }
 
 .z{
@@ -164,4 +170,120 @@ hr.style-line {
     background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+a.bttn-black {
+  font-family:"century gothic";
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  transition: .3s ease-in-out;
+}
+
+a.bttn {
+    width: 25%;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-image: none;
+}
+
+a.but{
+    width: 100%;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-image: none;
+}
+a.butt{
+    width: auto;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    background-image: none;
+}
+a.bttn-black:hover:not(:active) {
+
+      color: #FF0000;
+}
+p1 {
+  margin: 0 0 0px;
+}
+.footer{
+    font-family:"century gothic";
+}
+.cont {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+body{
+    background: #F5F5F5;
+}
+
+.news{
+    font-family: "century gothic";
+}
+
+a.new{
+    font-size: 15px;
+    font-family:"century gothic";
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+
+a.new:hover:not(:active){
+    color: #C0C0C0;
+    text-decoration: none;
+}
+a.nom{
+    transition: .3s ease-in-out;
+}
+a.nom:hover:not(:active){
+    color: #FF0000;
+}
+
+.home{
+    font-family: "century gothic";
+    font-size: 28px;
+}
+
+.ho{
+    font-family: "century gothic";
+    font-size: 23px;
+}
+
+a.hom{
+    font-family: "century gothic";
+    font-size: 20px;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+
+a.hom:hover:not(:active){
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.icons{
+    font-size: 13px;
+    color: #ff0000;
+}
+footer{
+    background: #526b7e;
+    color: aliceblue;   
+}
+.social{
+    background: #c5c8c8;
+    color: black;
+}
+.menu-footer{
+    background:  #DCDCDC;
 }
