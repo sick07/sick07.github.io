@@ -287,3 +287,34 @@ footer{
 .menu-footer{
     background:  #DCDCDC;
 }
+
+.predl1{
+    font: 45px "century gothic";
+}
+
+.predl2{
+    font: 25px "century gothic";
+}
+
+.predl3{
+    font: 35px "century gothic";
+}
+.predl4{
+    font: 20px "century gothic";
+}
+
+.predl5{
+    font: 15px "century gothic";
+}
+
+.q{
+    padding-left: 150px;
+}
+
+.w{
+    padding-left: 50px
+}
+
+.m{
+    color: #FF0000;
+}
