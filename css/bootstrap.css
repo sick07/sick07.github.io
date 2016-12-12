@@ -4608,8 +4608,17 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > li > a {
   color: #F8F8FF;
   font-family:  "century gothic";
-  font-size: 17px
+  font-size: 17px;
+  transition: .4s ease-in-out;
 }
+
+.navbar-inverse .navbar-nav:hover:not(:active) > li > a {
+  color: #FF0000;
+  font-family:  "century gothic";
+  font-size: 17px;
+  text-decoration: none;
+}
+
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #fff;
